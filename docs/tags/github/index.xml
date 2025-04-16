@@ -116,8 +116,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# push は切りのいいタイミングでする
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;mainへのマージ&#34;&gt;Mainへのマージ
-&lt;/h2&gt;&lt;ol&gt;
+&lt;/div&gt;&lt;h3 id=&#34;mainへのマージ&#34;&gt;Mainへのマージ
+&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;リモートリポジトリの mainブランチから、ローカルリポジトリの mainブランチに &lt;code&gt;pull&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;ローカル上でブランチを切ってマージ、コンフリクト解消&lt;/li&gt;
 &lt;li&gt;コンフリクトがない状態のブランチをリモートリポジトリに &lt;code&gt;push&lt;/code&gt;&lt;/li&gt;

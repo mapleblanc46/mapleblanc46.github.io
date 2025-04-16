@@ -68,7 +68,7 @@ git push origin feature/change
 # push は切りのいいタイミングでする
 ```
 
-## Mainへのマージ
+### Mainへのマージ
 
 1. リモートリポジトリの mainブランチから、ローカルリポジトリの mainブランチに `pull`
 2. ローカル上でブランチを切ってマージ、コンフリクト解消
