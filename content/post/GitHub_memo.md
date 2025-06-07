@@ -8,7 +8,7 @@ categories:
     - 備忘録
 tags:
     - GitHub
-draft: true
+draft: false
 ---
 ## Git/Githubの備忘録
 

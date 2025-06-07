@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Technology on 椛狩りの季節</title>
-        <link>http://localhost:1313/categories/technology/</link>
+        <link>https://mapleblanc46.github.io/categories/technology/</link>
         <description>Recent content in Technology on 椛狩りの季節</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Wed, 16 Apr 2025 21:50:18 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 16 Apr 2025 21:50:18 +0900</lastBuildDate><atom:link href="https://mapleblanc46.github.io/categories/technology/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>GitHub_memo</title>
-        <link>http://localhost:1313/p/github_memo/</link>
+        <link>https://mapleblanc46.github.io/p/github_memo/</link>
         <pubDate>Wed, 16 Apr 2025 21:50:18 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/github_memo/</guid>
+        <guid>https://mapleblanc46.github.io/p/github_memo/</guid>
         <description>&lt;h2 id=&#34;gitgithubの備忘録&#34;&gt;Git/Githubの備忘録
 &lt;/h2&gt;&lt;h3 id=&#34;local-to-remote&#34;&gt;Local to Remote
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
