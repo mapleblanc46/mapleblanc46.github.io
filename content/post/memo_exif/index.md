@@ -1,6 +1,6 @@
 ---
 title: 画像が横向きになるのはEXIFのせい
-description: 
+description: カメラ画像が横向きになる原因を追いかけた
 slug: memo_exif
 date: 2025-06-28T18:08:26+09:00
 categories:

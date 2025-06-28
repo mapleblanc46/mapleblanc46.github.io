@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>笠松 on 椛狩りの季節</title>
-        <link>https://mapleblanc46.github.io/tags/%E7%AC%A0%E6%9D%BE/</link>
+        <link>http://localhost:1313/tags/%E7%AC%A0%E6%9D%BE/</link>
         <description>Recent content in 笠松 on 椛狩りの季節</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Wed, 25 Jun 2025 23:41:35 +0900</lastBuildDate><atom:link href="https://mapleblanc46.github.io/tags/%E7%AC%A0%E6%9D%BE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 25 Jun 2025 23:41:35 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%AC%A0%E6%9D%BE/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>一人旅って、自由ですか</title>
-        <link>https://mapleblanc46.github.io/p/ryokou202506/</link>
+        <link>http://localhost:1313/p/ryokou202506/</link>
         <pubDate>Wed, 25 Jun 2025 23:41:35 +0900</pubDate>
         
-        <guid>https://mapleblanc46.github.io/p/ryokou202506/</guid>
+        <guid>http://localhost:1313/p/ryokou202506/</guid>
         <description>&lt;p&gt;平日に三連休が生えてきたらもう旅行に行くしかないよね。&lt;br&gt;
 というわけで、仕事終わりに夜行バスに乗り込み腰を痛めながら名古屋にやってきた。&lt;/p&gt;
 &lt;h2 id=&#34;名古屋-弾着&#34;&gt;名古屋 弾着
-&lt;/h2&gt;&lt;figure&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/hishou.jpg&#34;
+&lt;/h2&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/hishou.jpg&#34;
     alt=&#34;飛翔跡地&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;飛翔跡地&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -23,14 +23,14 @@
 
 &lt;p&gt;撤去されてからもう何年も経つってのに、あのクソデカモニュメントがない名駅は不思議な感じがするな。東口を頻繁に使ってたわけじゃないけどそれでもなんだかものさみしいわね。リニアが開通したらもっと気楽に来られるようになるのかしら。&lt;/p&gt;
 &lt;p&gt;そんな感傷に浸りながらコメダで腹ごしらえ。夜行バスでまともに眠れるわけがないんだから、カフェインでブーストしていくぜ。シロノワールは温かさと冷たさが混ざり合う感覚がたまらないんだよね。ダイス状のキットカットもアクセントになってておいしい。朝から甘未を補充できて満足。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/komeda.jpg&#34; width=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/komeda.jpg&#34; width=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;エネルギー補給を済ませたところで本命の名鉄シングレコラボに向かう。午後にはウマ娘好きの友人とスイパラで合流した後に笠松へ向かう予定だったので、先にスタンプを埋めておこうと太田川から回っていく。キャラの数合わせだとは思うけどなぜ太田川と刈谷なのですか……乗り換え増えてちと面倒じゃった&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/beruno.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/beruno.jpg&#34;
 	width=&#34;2378&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/beruno_hu_2a8366264c9412b2.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/beruno_hu_db3662182d8a317f.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/beruno_hu_2a8366264c9412b2.jpg 480w, http://localhost:1313/p/ryokou202506/beruno_hu_db3662182d8a317f.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;真正面のベルノなんか凄味がある…&#34;
@@ -40,10 +40,10 @@
 		data-flex-grow=&#34;58&#34;
 		data-flex-basis=&#34;139px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/maruzen.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/maruzen.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/maruzen_hu_e5371cd6fb79d11d.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/maruzen_hu_e727890d3bbb9603.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/maruzen_hu_e5371cd6fb79d11d.jpg 480w, http://localhost:1313/p/ryokou202506/maruzen_hu_e727890d3bbb9603.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;太田川のマルゼン&#34;
@@ -53,10 +53,10 @@
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/tamamo.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/tamamo.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/tamamo_hu_463ce5d895f04563.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/tamamo_hu_1576996df65b4218.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/tamamo_hu_463ce5d895f04563.jpg 480w, http://localhost:1313/p/ryokou202506/tamamo_hu_1576996df65b4218.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;刈谷のタマモ&#34;
@@ -70,10 +70,10 @@
 &lt;h2 id=&#34;中京競馬場&#34;&gt;中京競馬場
 &lt;/h2&gt;&lt;p&gt;そして名駅に帰る道中くっっっっそ熱い中(notTypo)中京競馬場に向かう。&lt;br&gt;
 平日ど真ん中なので外側をぐるっと回るくらいしかできなかったけど、それでもスズカ広場や歴代優勝馬の碑を見られてよかったなぁ。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/rudorufu.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/rudorufu.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/rudorufu_hu_f7ef23a95d3ea2de.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/rudorufu_hu_40274ebd62bdc350.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/rudorufu_hu_f7ef23a95d3ea2de.jpg 480w, http://localhost:1313/p/ryokou202506/rudorufu_hu_40274ebd62bdc350.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;ｶｲﾁｮｰ&#34;
@@ -83,10 +83,10 @@
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/hashira_oguri.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/hashira_oguri.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/hashira_oguri_hu_18161f857a5508b2.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/hashira_oguri_hu_26fbdd7d1ebc564e.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/hashira_oguri_hu_18161f857a5508b2.jpg 480w, http://localhost:1313/p/ryokou202506/hashira_oguri_hu_26fbdd7d1ebc564e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -94,10 +94,10 @@
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/hashira_ma-chi.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/hashira_ma-chi.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/hashira_ma-chi_hu_390ee200b45d5560.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/hashira_ma-chi_hu_73708a7eb02ec390.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/hashira_ma-chi_hu_390ee200b45d5560.jpg 480w, http://localhost:1313/p/ryokou202506/hashira_ma-chi_hu_73708a7eb02ec390.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -106,10 +106,10 @@
 		data-flex-basis=&#34;180px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/entrance.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/entrance.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/entrance_hu_4c69dbe130a58995.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/entrance_hu_d02adb282506bd83.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/entrance_hu_4c69dbe130a58995.jpg 480w, http://localhost:1313/p/ryokou202506/entrance_hu_d02adb282506bd83.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -117,10 +117,10 @@
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/building.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/building.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/building_hu_8ea4ae3f436e6815.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/building_hu_4945b5aa56342c37.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/building_hu_8ea4ae3f436e6815.jpg 480w, http://localhost:1313/p/ryokou202506/building_hu_4945b5aa56342c37.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -128,10 +128,10 @@
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/suzuka.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/suzuka.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/suzuka_hu_f025b29c2f9da97.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/suzuka_hu_b39c8d0a1d3c36dd.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/suzuka_hu_f025b29c2f9da97.jpg 480w, http://localhost:1313/p/ryokou202506/suzuka_hu_b39c8d0a1d3c36dd.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -143,10 +143,10 @@
 &lt;h2 id=&#34;名古屋に戻ってくる&#34;&gt;名古屋に戻ってくる
 &lt;/h2&gt;&lt;p&gt;疲れた体にこの世で一番うまい汁無し担々麺を流し込み、スイパラに向かう。&lt;br&gt;
 らーめん六弦の汁無し担々麺が一番うまいんだから。残った汁にごはんをぶっこむ〆はいずれがんにも効くようになる。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/mugen-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/mugen-1.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/mugen-1_hu_42a550962b098783.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/mugen-1_hu_80ed5e2b4ecd674c.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/mugen-1_hu_42a550962b098783.jpg 480w, http://localhost:1313/p/ryokou202506/mugen-1_hu_80ed5e2b4ecd674c.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -154,10 +154,10 @@
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/cb-1.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/cb-1.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/cb-1_hu_ea6457e7456675ee.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/cb-1_hu_89fc1ad28842f4c1.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/cb-1_hu_ea6457e7456675ee.jpg 480w, http://localhost:1313/p/ryokou202506/cb-1_hu_89fc1ad28842f4c1.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -169,10 +169,10 @@
 &lt;p&gt;タマモプレートが一番見た目は可愛かったな。ただあの青いゼリー味が無くて不思議な気分に。&lt;br&gt;
 ルドルフ推しの友人は嗚咽を漏らしながら最中を食べててうけるな。スイパラは小麦粉もの食べてるとすぐにおなか一杯になっちゃうからムースをメインにするべし。
 てかスイパラコラボのベルノめちゃくちゃ可愛くないか？？？？アニメのベルノもかなり好きだったけどこっちもよきだ……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/zenbu-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/zenbu-1.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/zenbu-1_hu_de5b30bf5e1ce23.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/zenbu-1_hu_4aa628b98719880b.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/zenbu-1_hu_de5b30bf5e1ce23.jpg 480w, http://localhost:1313/p/ryokou202506/zenbu-1_hu_4aa628b98719880b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -180,10 +180,10 @@
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/tamamoplate-1.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/tamamoplate-1.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/tamamoplate-1_hu_11822cb2947d19b8.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/tamamoplate-1_hu_e885bfce5a7a8de0.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/tamamoplate-1_hu_11822cb2947d19b8.jpg 480w, http://localhost:1313/p/ryokou202506/tamamoplate-1_hu_e885bfce5a7a8de0.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -191,10 +191,10 @@
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/shuugou-1.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/shuugou-1.jpg&#34;
 	width=&#34;4096&#34;
 	height=&#34;3072&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/shuugou-1_hu_ccd2b42d9e23bf26.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/shuugou-1_hu_3331e8ff6bbdc01f.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/shuugou-1_hu_ccd2b42d9e23bf26.jpg 480w, http://localhost:1313/p/ryokou202506/shuugou-1_hu_3331e8ff6bbdc01f.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -206,10 +206,10 @@
 &lt;h2 id=&#34;そして笠松へ&#34;&gt;そして笠松へ
 &lt;/h2&gt;&lt;p&gt;もう陽も落ちてだいぶ暗くなってたけどまだまだ暑かったなぁ。&lt;br&gt;
 室内観客席(?)は空いていてなんとか涼むことができたし、ちょうど船橋競馬の中継をしていた。時間がなかったから実況中継はあきらめてOPで出てきた橋に向かう途中にも、見たことのある景色がたくさんでオタク心がくすぐられるくすぐられる。特にOPはじめに出てくる物見やぐら(あれなんだ?)がいっちゃんテンション上がる↑↑↑↑。ドロスが聞こえてくるのも空耳じゃないね。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/eki-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/eki-1.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/eki-1_hu_6d32088dd79671cd.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/eki-1_hu_b2432bfafab8add1.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/eki-1_hu_6d32088dd79671cd.jpg 480w, http://localhost:1313/p/ryokou202506/eki-1_hu_b2432bfafab8add1.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -217,10 +217,10 @@
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/yagura-1.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/yagura-1.jpg&#34;
 	width=&#34;2340&#34;
 	height=&#34;4160&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/yagura-1_hu_a57a50348d1c8776.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/yagura-1_hu_7a6cedb470c231ab.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/yagura-1_hu_a57a50348d1c8776.jpg 480w, http://localhost:1313/p/ryokou202506/yagura-1_hu_7a6cedb470c231ab.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -228,10 +228,10 @@
 		data-flex-grow=&#34;56&#34;
 		data-flex-basis=&#34;135px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/keibajou-1.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/keibajou-1.jpg&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/keibajou-1_hu_a8ff680849b11913.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/keibajou-1_hu_d1216138800ce1f4.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/keibajou-1_hu_a8ff680849b11913.jpg 480w, http://localhost:1313/p/ryokou202506/keibajou-1_hu_d1216138800ce1f4.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -242,10 +242,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;そもそも仕事終わりに夜行バスで愛知に来てからずっと活動していたので疲労はピークを迎えていた。さらに駅から微妙に遠い橋に向かってかってぇコンクリートを歩いてきたから足が棒だよ。カフェインとドーパミンだけで動いていた体を引きずって何とか駅に着き名古屋までは爆睡。寝過ごす前になんとか体を起こして友人に別れを告げる。疲労困憊で終わり散らかしてるけどまだ行くところがある、愛知で一番うまい豚骨ラーメン屋へ。&lt;/p&gt;
 &lt;h2 id=&#34;駅西ラーメンをすこれ&#34;&gt;駅西ラーメンをすこれ！
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/ekinishi-1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/ekinishi-1.jpg&#34;
 	width=&#34;4096&#34;
 	height=&#34;3072&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/ekinishi-1_hu_d03350d0216d8a0f.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/ekinishi-1_hu_3d7c141f56a032d1.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/ekinishi-1_hu_d03350d0216d8a0f.jpg 480w, http://localhost:1313/p/ryokou202506/ekinishi-1_hu_3d7c141f56a032d1.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -253,10 +253,10 @@
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt; &lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/menu-1.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/ryokou202506/menu-1.jpg&#34;
 	width=&#34;4096&#34;
 	height=&#34;3072&#34;
-	srcset=&#34;https://mapleblanc46.github.io/p/ryokou202506/menu-1_hu_97c0eedd115a18e7.jpg 480w, https://mapleblanc46.github.io/p/ryokou202506/menu-1_hu_f19fe671f98cf9d3.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/ryokou202506/menu-1_hu_97c0eedd115a18e7.jpg 480w, http://localhost:1313/p/ryokou202506/menu-1_hu_f19fe671f98cf9d3.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -266,7 +266,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;このクリーミーな豚骨スープと香ばしいマー油に固めの細麺ストレートをくぐらせる喜びを知らない人は今すぐ食べに行ってほしい。名駅西口の雑然とした飲み屋街にひっそりとたたずむ店構えがたまらないんだ（店の外観を撮り忘れちゃったけど。そして沁みっ沁みのチャーシュー丼は惜しみなくタレがかかっており、濃い味好きの愛知県民を十分に満足させてくれる。ﾊﾔﾚ&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://mapleblanc46.github.io/p/ryokou202506/shuva-1.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/p/ryokou202506/shuva-1.jpg&#34;
     alt=&#34;ｼｭｳﾞｧﾁ!!&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;ｼｭｳﾞｧﾁ!!&lt;/p&gt;
     &lt;/figcaption&gt;
