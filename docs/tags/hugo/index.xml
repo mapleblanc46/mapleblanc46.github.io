@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hugo on 椛狩りの季節</title>
+        <link>http://localhost:1313/tags/hugo/</link>
+        <description>Recent content in Hugo on 椛狩りの季節</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja</language>
+        <lastBuildDate>Sat, 28 Jun 2025 18:08:26 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>画像が横向きになるのはEXIFのせい</title>
+        <link>http://localhost:1313/p/memo_exif/</link>
+        <pubDate>Sat, 28 Jun 2025 18:08:26 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/memo_exif/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/ryokou202506/&#34; &gt;旅行の記事&lt;/a&gt;を書いてるときに、画像を添付すると横転してしまった。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![飛翔跡地](hishou_exif.jpg)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/memo_exif/hishou_exif.jpg&#34;
+	width=&#34;4096&#34;
+	height=&#34;3072&#34;
+	srcset=&#34;http://localhost:1313/p/memo_exif/hishou_exif_hu_4930c660c227198f.jpg 480w, http://localhost:1313/p/memo_exif/hishou_exif_hu_55d4f0b7334cb3ef.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;飛翔跡地&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;どうやらExifという形式のメタデータを画像に埋め込んでるらしい。
+&lt;a class=&#34;link&#34; href=&#34;https://ja.wikipedia.org/wiki/Exchangeable_image_file_format&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Exchangeable image file format（Exif） - Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://exiftool.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;exiftool&lt;/a&gt;というツールに画像をぶち込むと以下のような情報が見られる。
+画像としては横転してる状態が正なのを、スマホ上のビューワーなどではExifの &lt;code&gt;Orientation&lt;/code&gt; というタグを読み込んでよしなに表示してくれている。
+&lt;code&gt;Orientation                     : Rotate 90 CW&lt;/code&gt; が時計回りに90°回転するってことらしい。(ClockWise？)&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/p/memo_exif/exif_cli.jpg&#34; width=&#34;90%&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Stackの &lt;code&gt;![Image 1](1.jpg)&lt;/code&gt; っていうGallery Syntaxはこの &lt;code&gt;Orientation&lt;/code&gt; を無視するのかしらね。&lt;br&gt;
+というわけで、この情報を書き換える方法を探すとチャッピーがImageMagickというパッケージを教えてくれた。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;convert &amp;lt;対象ファイル名&amp;gt; -auto-orient &amp;lt;操作後のファイル名&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;この &lt;code&gt;-auto-orient&lt;/code&gt; というオプションが、 &lt;code&gt;Orientation&lt;/code&gt; タグの向きに画像を回転させつつ、&lt;code&gt;Orientation&lt;/code&gt; タグの情報を &lt;code&gt;Horizontal (normal)&lt;/code&gt; にしてくれる。&lt;/p&gt;
+&lt;p&gt;先の記事ではスマホで撮った画像を大量に使用しているので、一つ一つ画像に &lt;code&gt;convert&lt;/code&gt; を適応していくのはちと面倒じゃ。というわけでディレクトリ内の画像を一括処理できるスクリプトを用意する。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 対象ディレクトリ（必要に応じて変更）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;TARGET_DIR&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# JPG/JPEG/PNG を対象に一括処理&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; img in &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$TARGET_DIR&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;/*.&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;jpg,jpeg,png&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; -e &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$img&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;continue&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# ファイルが存在しない場合スキップ&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  sudo convert &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$img&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; -auto-orient &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$img&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;ちゃっぴーくんは便利だなぁ。ローカルのHugo用ディレクトリに上記のスクリプトを配置してコマンドを実行すれば一括で処理してくれる。
+これで、&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;記事を書く(画像を入れる部分はプレースホルダにしておく)&lt;/li&gt;
+&lt;li&gt;使いたい画像を記事ディレクトリにぶちこむ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./convert.sh ./content/post/&amp;lt;対象ディレクトリ&amp;gt;&lt;/code&gt; を実行&lt;/li&gt;
+&lt;li&gt;画像の表示サイズやキャプションを調整する&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;という流れを作れた。こういうのは習慣化するのが大事なんだよね。そのためには極力抵抗となる部分を減らして、取り組むための活性化エネルギーを小さくするの。アウトプットは気軽にサクッと、インプットするたびにやっていきたいね。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今記事書いてて気づいたけど、この記法だとExifをいじらなくても横転しない。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; figure
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    src=&amp;#34;hishou_exif.jpg&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    caption=&amp;#34;飛翔跡地&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    width=&amp;#34;50%&amp;#34; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/p/memo_exif/hishou_exif.jpg&#34;
+    alt=&#34;飛翔跡地&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;飛翔跡地&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;StackのGallery表示で複数画像を横に並べる機能が使いたくてこんなことやってるけど、figureのshortcodeでも指定の仕方によっては実現できるのかな。気が向いたら今度調べてみるか。&lt;/p&gt;
+&lt;p&gt;あと関連するコンテンツにGitHub_memoが表示されてるのもなんでだ？備忘録カテゴリーつけてるからかな？&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
