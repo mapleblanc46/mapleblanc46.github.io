@@ -4,7 +4,7 @@ description: gitとGitHubの使い方をまとめた備忘録
 slug: GitHub_memo
 date: 2025-04-16T21:50:18+09:00
 categories:
-    - Technology
+    - 技術
     - 備忘録
 tags:
     - GitHub

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="旅行の記事を書いてるときに、画像を添付すると横転してしまった。\n1 ![飛翔跡地](hishou_exif.jpg) どうやらExifという形式のメタデータを画像に埋め込んでるらしい。 Exchangeable image file format（Exif） - Wikipedia\n">
+<title>画像が横向きになるのはEXIFのせい</title>
+
+<link rel='canonical' href='https://mapleblanc46.github.io/p/memo_exif/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e7464f3258edd784116a3eab08a83e78f873a416fe5d448ae995d5e95700395.css"><meta property='og:title' content="画像が横向きになるのはEXIFのせい">
+<meta property='og:description' content="旅行の記事を書いてるときに、画像を添付すると横転してしまった。\n1 ![飛翔跡地](hishou_exif.jpg) どうやらExifという形式のメタデータを画像に埋め込んでるらしい。 Exchangeable image file format（Exif） - Wikipedia\n">
+<meta property='og:url' content='https://mapleblanc46.github.io/p/memo_exif/'>
+<meta property='og:site_name' content='椛狩りの季節'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Exif' /><meta property='article:tag' content='Hugo' /><meta property='article:tag' content='Markdown' /><meta property='article:published_time' content='2025-06-28T18:08:26&#43;09:00'/><meta property='article:modified_time' content='2025-06-28T18:08:26&#43;09:00'/>
+<meta name="twitter:title" content="画像が横向きになるのはEXIFのせい">
+<meta name="twitter:description" content="旅行の記事を書いてるときに、画像を添付すると横転してしまった。\n1 ![飛翔跡地](hishou_exif.jpg) どうやらExifという形式のメタデータを画像に埋め込んでるらしい。 Exchangeable image file format（Exif） - Wikipedia\n">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="メニューを開く・閉じる">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_f509edb42ecc0ebd.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍁</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">椛狩りの季節</a></h1>
+            <h2 class="site-description">日々の学びやアウトプットを徒然なるままに吐き出していきたい</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/mapleblanc46'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://x.com/mapleblanc46'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>ダークモード</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%82%99%E5%BF%98%E9%8C%B2/" >
+                備忘録
+            </a>
+        
+            <a href="/categories/%E6%8A%80%E8%A1%93/" >
+                技術
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/memo_exif/">画像が横向きになるのはEXIFのせい</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">6月 28, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    読了時間: 3分
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><a class="link" href="/p/ryokou202506/" >旅行の記事</a>を書いてるときに、画像を添付すると横転してしまった。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">![飛翔跡地](hishou_exif.jpg)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/memo_exif/hishou_exif.jpg"
+	width="4096"
+	height="3072"
+	srcset="/p/memo_exif/hishou_exif_hu_4930c660c227198f.jpg 480w, /p/memo_exif/hishou_exif_hu_55d4f0b7334cb3ef.jpg 1024w"
+	loading="lazy"
+	
+		alt="飛翔跡地"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+></p>
+<p>どうやらExifという形式のメタデータを画像に埋め込んでるらしい。
+<a class="link" href="https://ja.wikipedia.org/wiki/Exchangeable_image_file_format"  target="_blank" rel="noopener"
+    >Exchangeable image file format（Exif） - Wikipedia</a></p>
+<p><a class="link" href="https://exiftool.org/"  target="_blank" rel="noopener"
+    >exiftool</a>というツールに画像をぶち込むと以下のような情報が見られる。
+画像としては横転してる状態が正なのを、スマホ上のビューワーなどではExifの <code>Orientation</code> というタグを読み込んでよしなに表示してくれている。
+<code>Orientation                     : Rotate 90 CW</code> が時計回りに90°回転するってことらしい。(ClockWise？)</p>
+<figure><img src="/p/memo_exif/exif_cli.jpg" width="90%">
+</figure>
+
+<p>Stackの <code>![Image 1](1.jpg)</code> っていうGallery Syntaxはこの <code>Orientation</code> を無視するのかしらね。<br>
+というわけで、この情報を書き換える方法を探すとチャッピーがImageMagickというパッケージを教えてくれた。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">convert &lt;対象ファイル名&gt; -auto-orient &lt;操作後のファイル名&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>この <code>-auto-orient</code> というオプションが、 <code>Orientation</code> タグの向きに画像を回転させつつ、<code>Orientation</code> タグの情報を <code>Horizontal (normal)</code> にしてくれる。</p>
+<p>先の記事ではスマホで撮った画像を大量に使用しているので、一つ一つ画像に <code>convert</code> を適応していくのはちと面倒じゃ。というわけでディレクトリ内の画像を一括処理できるスクリプトを用意する。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 対象ディレクトリ（必要に応じて変更）</span>
+</span></span><span class="line"><span class="cl"><span class="nv">TARGET_DIR</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># JPG/JPEG/PNG を対象に一括処理</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> img in <span class="s2">&#34;</span><span class="nv">$TARGET_DIR</span><span class="s2">&#34;</span>/*.<span class="o">{</span>jpg,jpeg,png<span class="o">}</span><span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">  <span class="o">[</span> -e <span class="s2">&#34;</span><span class="nv">$img</span><span class="s2">&#34;</span> <span class="o">]</span> <span class="o">||</span> <span class="k">continue</span>  <span class="c1"># ファイルが存在しない場合スキップ</span>
+</span></span><span class="line"><span class="cl">  sudo convert <span class="s2">&#34;</span><span class="nv">$img</span><span class="s2">&#34;</span> -auto-orient <span class="s2">&#34;</span><span class="nv">$img</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>ちゃっぴーくんは便利だなぁ。ローカルのHugo用ディレクトリに上記のスクリプトを配置してコマンドを実行すれば一括で処理してくれる。
+これで、</p>
+<ol>
+<li>記事を書く(画像を入れる部分はプレースホルダにしておく)</li>
+<li>使いたい画像を記事ディレクトリにぶちこむ</li>
+<li><code>./convert.sh ./content/post/&lt;対象ディレクトリ&gt;</code> を実行</li>
+<li>画像の表示サイズやキャプションを調整する</li>
+</ol>
+<p>という流れを作れた。こういうのは習慣化するのが大事なんだよね。そのためには極力抵抗となる部分を減らして、取り組むための活性化エネルギーを小さくするの。アウトプットは気軽にサクッと、インプットするたびにやっていきたいね。</p>
+<hr>
+<p>今記事書いてて気づいたけど、この記法だとExifをいじらなくても横転しない。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">{{&lt; figure
+</span></span><span class="line"><span class="cl">    src=&#34;hishou_exif.jpg&#34;
+</span></span><span class="line"><span class="cl">    caption=&#34;飛翔跡地&#34;
+</span></span><span class="line"><span class="cl">    width=&#34;50%&#34; 
+</span></span><span class="line"><span class="cl">&gt;}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><figure><img src="/p/memo_exif/hishou_exif.jpg"
+    alt="飛翔跡地" width="50%"><figcaption>
+      <p>飛翔跡地</p>
+    </figcaption>
+</figure>
+
+<p>StackのGallery表示で複数画像を横に並べる機能が使いたくてこんなことやってるけど、figureのshortcodeでも指定の仕方によっては実現できるのかな。気が向いたら今度調べてみるか。</p>
+<p>あと関連するコンテンツにGitHub_memoが表示されてるのもなんでだ？備忘録カテゴリーつけてるからかな？</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/exif/">Exif</a>
+        
+            <a href="/tags/hugo/">Hugo</a>
+        
+            <a href="/tags/markdown/">Markdown</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">関連するコンテンツ</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/github_memo/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">GitHub_memo</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 椛狩りの季節
+    </section>
+    
+    <section class="powerby">
+        <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> で構築されています。 <br />
+        テーマ <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> は <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> によって設計されています。
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

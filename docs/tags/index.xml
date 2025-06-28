@@ -2,32 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on 椛狩りの季節</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>https://mapleblanc46.github.io/tags/</link>
         <description>Recent content in Tags on 椛狩りの季節</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Wed, 25 Jun 2025 23:41:35 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Jun 2025 18:08:26 +0900</lastBuildDate><atom:link href="https://mapleblanc46.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Exif</title>
+        <link>https://mapleblanc46.github.io/tags/exif/</link>
+        <pubDate>Sat, 28 Jun 2025 18:08:26 +0900</pubDate>
+        
+        <guid>https://mapleblanc46.github.io/tags/exif/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Hugo</title>
+        <link>https://mapleblanc46.github.io/tags/hugo/</link>
+        <pubDate>Sat, 28 Jun 2025 18:08:26 +0900</pubDate>
+        
+        <guid>https://mapleblanc46.github.io/tags/hugo/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Markdown</title>
+        <link>https://mapleblanc46.github.io/tags/markdown/</link>
+        <pubDate>Sat, 28 Jun 2025 18:08:26 +0900</pubDate>
+        
+        <guid>https://mapleblanc46.github.io/tags/markdown/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>ウマ娘</title>
-        <link>http://localhost:1313/tags/%E3%82%A6%E3%83%9E%E5%A8%98/</link>
+        <link>https://mapleblanc46.github.io/tags/%E3%82%A6%E3%83%9E%E5%A8%98/</link>
         <pubDate>Wed, 25 Jun 2025 23:41:35 +0900</pubDate>
         
-        <guid>http://localhost:1313/tags/%E3%82%A6%E3%83%9E%E5%A8%98/</guid>
+        <guid>https://mapleblanc46.github.io/tags/%E3%82%A6%E3%83%9E%E5%A8%98/</guid>
         <description></description>
         </item>
         <item>
         <title>笠松</title>
-        <link>http://localhost:1313/tags/%E7%AC%A0%E6%9D%BE/</link>
+        <link>https://mapleblanc46.github.io/tags/%E7%AC%A0%E6%9D%BE/</link>
         <pubDate>Wed, 25 Jun 2025 23:41:35 +0900</pubDate>
         
-        <guid>http://localhost:1313/tags/%E7%AC%A0%E6%9D%BE/</guid>
+        <guid>https://mapleblanc46.github.io/tags/%E7%AC%A0%E6%9D%BE/</guid>
         <description></description>
         </item>
         <item>
         <title>GitHub</title>
-        <link>http://localhost:1313/tags/github/</link>
+        <link>https://mapleblanc46.github.io/tags/github/</link>
         <pubDate>Wed, 16 Apr 2025 21:50:18 +0900</pubDate>
         
-        <guid>http://localhost:1313/tags/github/</guid>
+        <guid>https://mapleblanc46.github.io/tags/github/</guid>
         <description></description>
         </item>
         
